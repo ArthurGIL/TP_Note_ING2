@@ -17,7 +17,8 @@ private:
 public:
     PageWeb(std::string nom);
     ~PageWeb();
-    std::string add(Image image, Titre titre, Liste liste, Paragraphe para,);
+    std::string add(Image image, Titre titre, Liste liste, Paragraphe para);
+    void generate();
 };
 
 

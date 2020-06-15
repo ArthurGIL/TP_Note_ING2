@@ -13,3 +13,11 @@ PageWeb::~PageWeb() {}
 std::string PageWeb::add(Image image, Titre titre, Liste liste, Paragraphe para) {
     return std::__cxx11::string();
 }
+
+void PageWeb::generate() {
+    std::ofstream file;
+
+    std::cout << "Création du fichier " << m_nom << std::endl;
+    file.open(m_nom);
+
+}
