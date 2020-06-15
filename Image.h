@@ -4,10 +4,16 @@
 
 #ifndef TP_NOTE_ING2_IMAGE_H
 #define TP_NOTE_ING2_IMAGE_H
-
+#include <iostream>
 
 class Image {
+protected:
+    std::string m_addresse;
+    std::string m_texteAlt;
 
+public:
+    Image(std::string addresse, std::string texteAlt);
+    ~Image();
 };
 
 

@@ -3,3 +3,9 @@
 //
 
 #include "Image.h"
+
+Image::Image(std::string addresse, std::string texteAlt)
+    : m_addresse{addresse}, m_texteAlt{texteAlt}
+{}
+
+Image::~Image() {}
